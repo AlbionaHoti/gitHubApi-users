@@ -38,8 +38,6 @@ class Navigation extends Component {
   }
 }
 
-// export default Navigation;
-
 export default connect(
   state => state.searchStore,
   dispatch => bindActionCreators(searchAction, dispatch)
