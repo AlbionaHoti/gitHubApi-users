@@ -29,7 +29,7 @@ class ListUsers extends Component {
 
     const json = await response.json();
 
-    this.appendUsers(json);
+    this.appendUsers(json || []);
   }
 
   componentDidMount() {

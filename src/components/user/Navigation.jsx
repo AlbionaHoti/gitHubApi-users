@@ -12,7 +12,8 @@ class Navigation extends Component {
   }
 
   render() {
-    return <nav className="navbar navbar-light bg-li">
+    return ( 
+      <nav className="navbar navbar-light bg-li">
         <a className="navbar-brand" size="" href="https://developer.github.com/v3/?">
           About GitHub Api
         </a>
@@ -34,7 +35,8 @@ class Navigation extends Component {
               />
           </div>
         </form>
-      </nav>;
+      </nav>
+    )
   }
 }
 

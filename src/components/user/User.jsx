@@ -28,12 +28,11 @@ class User extends Component {
     }
 
     return (
-      
        <div className="container">
         <Panel className="border m-5">
           <a href={"/"} type="button" className="btn btn-outline-info btn-small m-5">
-          <i className="fas fa-chevron-left" />
-            {" Back to list"}
+            <i className="fas fa-chevron-left" />
+              {" Back to list"}
           </a>
           <div className="card w-50 m-5">
             <img className="card-img-top" src={user.avatar_url} alt="bla" />
